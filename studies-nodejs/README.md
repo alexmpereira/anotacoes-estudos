@@ -1,3 +1,8 @@
+# NodeJs
+
+#### Requisitos para rodar node
+- Node.js
+
 ##### Anotações do curso de NodeJS Tecnospeed
 
 - Dentro da pasta que será o projeto digite: **npm init -y**
