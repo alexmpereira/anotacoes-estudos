@@ -3,13 +3,11 @@
 #### Requisitos para rodar node
 - Node.js
 
-##### Anotações do curso de NodeJS Tecnospeed
-
+##### Anotações
+- Instalando typescript globalmente: **npm install typescript -g**
+  - Para transpilar aquivos ts, digite no terminal: **tsc app.ts**
 - Dentro da pasta que será o projeto digite: **npm init -y**
 - Instalando a dependência Express via npm: **npm install express**
-- Instalando a dependência NodeMon via npm: **npm install -D nodemon**
-  - No arquivo package.json da parte de scripts, deve ser adicionado a seguinte linha: **"dev": "nodemon server.js"**
-  - Com ele instalado para rodar o projeto deve executar o comando: **npm run dev**
 - Instalando o mongoose: **npm install mongoose**
 - Para testar se o servidor está funcionando digite: **node server.js**
 - Instalando o require-dir: **npm install require-dir**
@@ -27,6 +25,10 @@
 
 ##### O que é Nodemon
 - Sempre que ocorrer atualização no servidor o nodemon atualiza automaticamente sem a necessidade de parar e rodar novamente o servidor.
+- Instalando a dependência NodeMon via npm: **npm install -D nodemon**
+  - No arquivo package.json da parte de scripts, deve ser adicionado a seguinte linha: **"dev": "nodemon server.js"**
+  - Com ele instalado para rodar o projeto deve executar o comando: **npm run dev**
+  - Para rodar arquivos especifico de js execute: **nodemon app.js**
 
 ##### O que o Mongoose faz?
 - Mongoose é um ORM de bancos de dados não relacionais para o mongoDB.
