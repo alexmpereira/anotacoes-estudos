@@ -46,3 +46,36 @@ Quando precisarmos realizar um debug no código js pelo navegador, podemos decla
 Isso ajuda em projetos que contem muitos arquivos e fica complicado de encontrar.
 
 Lembrando que para mostrar o código a ser debugado pelo debugger, a ferramenta de desenvolvimento do navegador deve estar aberta.
+
+#### Trabalhando com internacionalização 
+
+- numberFormat
+
+```javascript
+let myNumber = 1285;
+
+let formatter = new Intl.NumberFormat('en-US', {
+	style: 'currency',
+	currency: 'JPY'
+});
+
+console.log( formatter.format(myNumber) );
+```
+
+- DateTimeFormat
+
+```javascript
+let myDate = new Date('2020-12-31T12:00:00');
+
+let formatter = new Intl.DateTimeFormat('en-US',{
+	weekday: 'long',
+	year: 'numeric',
+	month: 'long',
+	day: 'numeric'
+});
+
+
+console.log( formatter.format(myDate) );
+```
+
+
