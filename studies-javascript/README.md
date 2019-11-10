@@ -1,6 +1,10 @@
 # studies-javascript
 
 - Instalando um servidor em node para executar js: **npm install -g http-server**
+    - Acesse a pasta do projeto
+    - Digite: **npm install http-server**
+    - Em seguida digite:  **http-serve .**
+    - Basta acessar por exemplo: **localhost:8080/index.html**
 
 #### Declaração de classes no Javascript:
 
