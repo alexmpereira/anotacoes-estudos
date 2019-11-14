@@ -150,3 +150,8 @@ for (var value of list) {
 O “for..in” irá imprimir todos os índices, enquanto o “for..of” irá imprimir os valores.
 
 # RXJS
+
+RXJS utiliza o padrão Observable:
+
+- **Observables (observáveis)**: pense neles como variáveis que estão sendo vigiadas. Quando elas são alteradas, os observadores delas entram em ação;
+- **Observers (observadores)**: pense neles como funções que são disparadas sempre que um Observable é alterado.
