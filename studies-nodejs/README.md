@@ -25,6 +25,7 @@
 
 ##### O que é Nodemon
 - Sempre que ocorrer atualização no servidor o nodemon atualiza automaticamente sem a necessidade de parar e rodar novamente o servidor.
+- Instalando nodemon globalmente: **npm install -g nodemon**
 - Instalando a dependência NodeMon via npm: **npm install -D nodemon**
   - No arquivo package.json da parte de scripts, deve ser adicionado a seguinte linha: **"dev": "nodemon server.js"**
   - Com ele instalado para rodar o projeto deve executar o comando: **npm run dev**
