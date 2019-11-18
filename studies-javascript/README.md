@@ -159,3 +159,14 @@ RXJS utiliza o padrão Observable:
 
 - **Observables (observáveis)**: pense neles como variáveis que estão sendo vigiadas. Quando elas são alteradas, os observadores delas entram em ação;
 - **Observers (observadores)**: pense neles como funções que são disparadas sempre que um Observable é alterado.
+
+#### Exemplo do uso do RXJS
+
+- Tá nas pasta rxjs um exemplo que busca repositórios do github
+
+# Jasmine (Testes de softwares)
+
+- Instalando o Jasmine globalmente na máquina: **npm install jasmine -g**
+- Comando para inciiar o jasmine no projeto: **jasmine init**
+- Para executar o teste, acesse o diretório raiz e digite: **jasmine**
+- Para evitar de digitar sempre jasmine para testar, vamos usar o nodemon. Tento ele globalmente instalado, digite: **nodemon --exec jasmine**
