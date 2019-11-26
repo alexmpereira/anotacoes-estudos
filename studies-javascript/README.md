@@ -174,3 +174,4 @@ RXJS utiliza o padrão Observable:
 # Webpack
 
 - Instalação: **npm install -g webpack && npm install -g webpack-cli**
+- Configurações básicas do webpack tá no diretório webpack

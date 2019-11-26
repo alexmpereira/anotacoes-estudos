@@ -1,0 +1,11 @@
+- Source Maps
+- Watch Mode
+- Dev Server e Live Reload
+- Variáveis de ambiente
+- Hot Module Replacement
+- Extract Text Plugin
+- CSS Purify
+- Tree Shaking
+- Lazy Loading
+- Pré processador JS
+- Pré processador CSS
