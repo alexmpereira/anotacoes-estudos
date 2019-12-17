@@ -1,0 +1,15 @@
+{
+  "name": "first-package",
+  "version": "1.0.0",
+  "description": "Meu primeiro pacote npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "first",
+    "npm"
+  ],
+  "author": "Alex",
+  "license": "ISC"
+}
