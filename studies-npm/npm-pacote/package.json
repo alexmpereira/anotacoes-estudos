@@ -1,5 +1,5 @@
 {
-  "name": "first-package",
+  "name": "alexmpereira-first-package",
   "version": "1.0.0",
   "description": "Meu primeiro pacote npm",
   "main": "index.js",
