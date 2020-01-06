@@ -18,3 +18,20 @@
 - Instalação do React Native via npm: **npm install -g react-native-cli**
 - Criar um novo projeto via npm digite o comando: **react-native init nomeProjeto**
 - Rodar o projeto para android digite: **npx react-native run-android**
+
+#### Código exclusivo para cada plataforma
+
+Existe duas maneiras para criar código exclusivo para cada plataforma. 
+A primeira é através do nome do arquvo:
+
+- Para Android o arquivo deve ser feito: MyButton.android.js
+- Para IOs o arquivo deve ser feito da seguinte maneira: MyButton.ios.js
+- Na importação pode ser chamado sem a necessidade das extensões de cada plataforma: import MyButton from "./MyButton.js";
+
+A segunda maneira é através d módulo Platform:
+
+```js
+import { Platform } from 'react-native';
+if( Platform.OS === 'android' ){
+}
+```
