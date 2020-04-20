@@ -18,6 +18,7 @@
 - Instalação do React Native via npm: **npm install -g react-native-cli**
 - Criar um novo projeto via npm digite o comando: **react-native init nomeProjeto**
 - Rodar o projeto para android digite: **npx react-native run-android**
+- Rodar as próximas vezes pode digitar: **react-native start**
 
 #### Código exclusivo para cada plataforma
 
@@ -35,3 +36,24 @@ import { Platform } from 'react-native';
 if( Platform.OS === 'android' ){
 }
 ```
+
+#### Debug
+
+No Android, pressione "Ctrl + M" (Cmd + M) para exibir o menu e pressione "Debug JS Remotely".
+
+No iOS pressione "CMD + D" para exibir o menu e pressione "Debug JS Remotely".
+
+#### Algumas permissões de exemplo
+
+No arquivo **android/app/src/main/AndroidManifest.xml**
+
+```xml
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+```
+
+#### Comandos de rotinas
+- Rodar projeto após instalação de uma dependência nova: react-native start --reset-cache
